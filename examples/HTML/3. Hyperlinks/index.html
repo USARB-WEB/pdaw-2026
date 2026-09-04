@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hyperlinks</h1>
+    <p>Hyperlinks are used to link from one page to another. The most important element in HTML for creating hyperlinks is the anchor tag, which is defined with the <code>&lt;a&gt;</code> tag.</p>
+    <p>The anchor tag requires the <code>href</code> attribute, which indicates the link's destination. The text between the opening and closing anchor tags is what will be visible to users as clickable text.</p>
+    <p>Here is an example of a hyperlink:</p>
+    <a href="https://www.example.com">Visit Example.com</a>
+
+    <h2>Types of Hyperlinks</h2>
+    <ul>
+        <li>
+            <strong>Absolute URL:</strong> Links to a specific website or page, e.g., <code>&lt;a href="https://www.example.com"&gt;Example&lt;/a&gt;</code>
+            <a href="https://www.example.com">Visit Example.com</a>
+        </li>
+        <li>
+            <strong>Relative URL:</strong> Links to a page within the same website, e.g., <code>&lt;a href="about.html"&gt;About Us&lt;/a&gt;</code>
+            <a href="about.html" target="_blank">About Us</a>
+        </li>
+        <li>
+            <strong>Email Link:</strong> Opens the user's email client to send an email, e.g., <code>&lt;a href="mailto:example@example.com"&gt;Email Us&lt;/a&gt;</code>
+            <a href="mailto:example@example.com">Email Us</a>
+        </li>
+    </ul>
+
+    <h2>Target Attribute</h2>
+    <p>The <code>target</code> attribute specifies where to open the linked document. Common values include:</p>
+    <ul>
+        <li>
+            <code>_self</code>: Opens the link in the same tab (default)
+            <a href="https://www.example.com" target="_self">Open in same tab</a>
+    
+        </li>
+        <li>
+            <code>_blank</code>: Opens the link in a new tab
+            <a href="https://www.example.com" target="_blank">Open in new tab</a>
+        </li>
+        <li>
+            <code>_parent</code>: Opens the link in the parent frame
+            <a href="https://www.example.com" target="_parent">Open in parent frame</a>
+        </li>
+        <li>
+            <code>_top</code>: Opens the link in the full body of the window
+            <a href="https://www.example.com" target="_top">Open in top frame</a>
+        </li>
+    </ul>
+
+    <h2>Anchor Tags</h2>
+    <p>Anchor tags can also be used to create bookmarks within a page. By using the <code>id</code> attribute, you can link to specific sections of a page.</p>
+    <p>For example, if you have a section with an <code>id</code> of "section1", you can create a link to it like this:</p>
+    <a href="#section1">Go to Section 1</a> 
+    <a href="#section2">Go to Section 2</a>
+    <a href="#section3">Go to Section 3</a>
+    <a href="#section4">Go to Section 4</a>
+    <a href="#section5">Go to Section 5</a>
+
+    <section id="section1">
+        <h3>Section 1: Lorem Ipsum</h3>
+        <p class="generated-lorem"></p>
+    </section>
+    <section id="section2">
+        <h3>Section 2: Lorem Ipsum</h3>
+        <p class="generated-lorem"></p>
+    </section>
+    <section id="section3">
+        <h3>Section 3: Lorem Ipsum</h3>
+        <p class="generated-lorem"></p>
+    </section>
+    <section id="section4">
+        <h3>Section 4: Lorem Ipsum</h3>
+        <p class="generated-lorem"></p>
+    </section>
+    <section id="section5">
+        <h3>Section 5: Lorem Ipsum</h3>
+        <p class="generated-lorem"></p>
+    </section>
+
+    <script>
+        const loremWords = `Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum Curabitur pretium tincidunt lacus Nulla gravida orci a odio Nullam varius turpis et commodo pharetra est eros bibendum elit nec luctus magna felis sollicitudin mauris Integer in mauris eu nibh euismod gravida Duis ac tellus et risus vulputate vehicula Donec lobortis risus a elit Etiam tempor Ut ullamcorper ligula eu tempor congue eros est euismod turpis id tincidunt sapien risus a quam Maecenas fermentum consequat mi Donec fermentum Pellentesque malesuada nulla a mi Duis sapien sem aliquet nec commodo eget consequat quis neque Aliquam faucibus pede ut erat Nam dui mi tincidunt quis accumsan porttitor facilisis luctus metus Phasellus ultrices nulla quis nibh Quisque a lectus Donec consectetuer ligula vulputate sem tristique cursus Nam nulla quam gravida non commodo a sodales sit amet nisi Pellentesque fermentum dolor Aliquam quam lectus facilisis auctor ultrices ut elementum vulputate nunc`.split(' ');
+        document.querySelectorAll('.generated-lorem').forEach((paragraph, sectionIndex) => {
+            paragraph.textContent = Array.from({ length: 500 }, (_, wordIndex) => loremWords[(wordIndex + sectionIndex * 13) % loremWords.length]).join(' ') + '.';
+        });
+    </script>
+    
+</body>
+</html>
