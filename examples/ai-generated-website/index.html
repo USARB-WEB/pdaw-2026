@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ampere — electronics, chosen carefully</title>
+<meta name="description" content="A small electronics shop: laptops, phones, cameras, audio and displays. Short list, tested stock, delivery across Moldova.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body data-page="home">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===================================================== navigation === -->
+<header class="site-nav sticky-top">
+  <nav class="navbar navbar-expand-lg container py-2" aria-label="Main">
+    <a class="wordmark" href="index.html">Ampere<span>.</span></a>
+
+    <button class="navbar-toggler border-0 ms-auto me-2" type="button"
+            data-bs-toggle="collapse" data-bs-target="#menu"
+            aria-controls="menu" aria-expanded="false" aria-label="Open menu">
+      <i class="bi bi-list fs-3"></i>
+    </button>
+
+    <a class="nav-cart order-lg-3 d-lg-inline-flex" href="cart.html">
+      <i class="bi bi-bag"></i> Cart
+      <span class="cart-count is-empty" data-cart-count>0</span>
+    </a>
+
+    <div class="collapse navbar-collapse order-lg-2 justify-content-lg-end me-lg-3" id="menu">
+      <ul class="navbar-nav gap-lg-1 py-3 py-lg-0">
+        <li class="nav-item"><a class="nav-link" href="catalog.html">Catalog</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ========================================================== hero === -->
+  <section class="hero">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <p class="hero-kicker reveal">In stock in Bălți · ships the same day</p>
+          <h1 class="reveal">Electronics chosen by people who use them.</h1>
+          <p class="lead-text reveal">
+            We keep a short list instead of a warehouse. Every laptop, camera and
+            pair of headphones here has been used by someone on the team, and we
+            can tell you why it made the list — or why something cheaper would do.
+          </p>
+          <div class="d-flex flex-wrap gap-2 reveal">
+            <a class="btn btn-signal" href="catalog.html">Browse the catalog</a>
+            <a class="btn btn-line" href="about.html#how">How we choose</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="hero-stage reveal">
+            <img src="assets/img/laptop-14.svg" alt="Nordwave 14 Pro laptop">
+            <a class="price-tag" href="product.html?id=nordwave-14-pro">
+              <small>Nordwave 14 Pro</small>
+              <b>€1,349</b>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- promises -->
+      <div class="strip">
+        <dl class="row g-0 mb-0 text-start">
+          <div class="col-6 col-md-3">
+            <dt>Free delivery over €150</dt>
+            <dd>Anywhere in Moldova, 1–2 days</dd>
+          </div>
+          <div class="col-6 col-md-3">
+            <dt>24-month warranty</dt>
+            <dd>Repairs in our own workshop</dd>
+          </div>
+          <div class="col-6 col-md-3">
+            <dt>30 days to return</dt>
+            <dd>Unused and in the box</dd>
+          </div>
+          <div class="col-6 col-md-3">
+            <dt>Try it first</dt>
+            <dd>Every model is on the shop floor</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================== categories === -->
+  <section class="section-tight">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Start with a category</h2>
+          <p class="lead-text">Twelve products in total. That is the whole shop.</p>
+        </div>
+        <a class="btn btn-quiet" href="catalog.html">See everything</a>
+      </div>
+      <div class="row g-3" data-categories></div>
+    </div>
+  </section>
+
+  <!-- ====================================================== featured === -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Picked this month</h2>
+          <p class="lead-text">Four things we recommend without hesitating.</p>
+        </div>
+      </div>
+      <div class="row g-3 g-lg-4" data-featured></div>
+    </div>
+  </section>
+
+  <!-- ==================================================== dark band ==== -->
+  <section class="band-deep section">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <h2>What a short list buys you</h2>
+          <p class="mt-3">
+            Big shops list forty laptops and let you work out the difference.
+            We would rather stock three and know them well.
+          </p>
+        </div>
+        <div class="col-lg-8">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="promise">
+                <h3>We use it before we sell it</h3>
+                <p>A model gets a place on the list after someone here has worked on it for a month.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="promise">
+                <h3>Honest advice, even when it costs us</h3>
+                <p>If the cheaper model does the job, we will say so and you can keep the difference.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="promise">
+                <h3>We fix what we sell</h3>
+                <p>Repairs happen in the back of the shop, not in a queue at a distributor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================== testimonial == -->
+  <section class="section">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-7">
+          <blockquote class="quote mb-4">
+            “They talked me out of the expensive one and the cheaper camera was
+            the right call.”
+          </blockquote>
+          <p class="note mb-0">Irina C. · photographer · bought an Atlas A7 in March</p>
+        </div>
+        <div class="col-lg-5">
+          <div class="sheet sheet-pad">
+            <h3 class="mb-2">Not sure what you need?</h3>
+            <p class="lead-text">
+              Tell us what you will do with it and what you want to spend.
+              We answer within a working day.
+            </p>
+            <a class="btn btn-ink" href="contact.html">Ask us a question</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ========================================================= footer === -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="wordmark" href="index.html">Ampere<span>.</span></a>
+        <p class="mt-3 mb-0" style="max-width:34ch">
+          A small electronics shop on Strada Pușkin 38, Bălți.
+          Open Monday to Saturday, 9:00–19:00.
+        </p>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="catalog.html?category=computers">Computers</a></li>
+          <li><a href="catalog.html?category=phones">Phones</a></li>
+          <li><a href="catalog.html?category=photo">Photo</a></li>
+          <li><a href="catalog.html?category=audio">Audio</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="about.html#how">How we choose</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html">Your cart</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="tel:+37360123456">+373 60 123 456</a></li>
+          <li><a href="mailto:hello@ampere.md">hello@ampere.md</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-end d-flex flex-wrap justify-content-between gap-2">
+      <span>© 2026 Ampere. Demo shop built for a web development course.</span>
+      <span>Prices include VAT.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
