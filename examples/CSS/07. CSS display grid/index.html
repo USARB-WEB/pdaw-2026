@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CSS display grid</h1>
+
+    <h2>Grid Layout</h2>
+
+    <div style="display:grid; grid-template-columns: 100px 200px auto; grid-template-rows: 50px 100px">
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 1</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 2</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 3</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 4</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 5</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 6</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 7</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 8</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 9</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 10</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 11</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 12</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 13</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 14</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 15</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 16</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 17</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 18</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 19</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 20</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 21</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 22</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 23</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 24</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 25</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 26</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 27</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 28</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 29</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 30</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 31</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 32</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 33</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 34</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 35</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 36</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 37</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 38</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 39</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 40</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 41</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 42</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 43</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item_44</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 45</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 46</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 47</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 48</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 49</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 50</div>
+    </div>
+
+
+    <h2>Grid Repeat</h2>
+
+    <div style="display:grid; grid-template-columns: repeat(5, 100px) 50px repeat(2, 100px); grid-template-rows: 50px 100px">
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 1</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 2</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 3</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 4</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 5</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 6</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 7</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 8</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 9</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 10</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 11</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 12</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 13</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 14</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 15</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 16</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 17</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 18</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 19</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 20</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 21</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 22</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 23</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 24</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 25</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 26</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 27</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 28</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 29</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 30</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 31</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 32</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 33</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 34</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 35</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 36</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 37</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 38</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 39</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 40</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 41</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 42</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 43</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item_44</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 45</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 46</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 47</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 48</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 49</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 50</div>
+    </div>
+
+    <h2>Grid Gap</h2>
+
+    <div style="display:grid; grid-template-columns: repeat(5, 100px) 50px repeat(2, 100px); grid-template-rows: 50px 100px; gap: 50px 70px">
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 1</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 2</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 3</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 4</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 5</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 6</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 7</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 8</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 9</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 10</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 11</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 12</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 13</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 14</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 15</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 16</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 17</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 18</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 19</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 20</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 21</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 22</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 23</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 24</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 25</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 26</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 27</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 28</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 29</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 30</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 31</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 32</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 33</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 34</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 35</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 36</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 37</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 38</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 39</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 40</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 41</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 42</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 43</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item_44</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 45</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 46</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 47</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 48</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 49</div>
+        <div style="width: 50px; height: 30px; border: 1px solid green">Item 50</div>
+    </div>
+</body>
+</html>
