@@ -1,0 +1,23 @@
+ul li{
+    background: blue;
+    margin: 5px;
+}
+
+ul li:hover{
+    background: red;
+}
+
+ul li:first-child,
+ul li:last-child{
+    background: yellow;
+}
+
+ul li:nth-child(odd){
+    font-size: 23px;
+    color: white;
+}
+
+ul li:nth-child(2n+1){
+    font-size: 25px;
+    color: red;
+}
