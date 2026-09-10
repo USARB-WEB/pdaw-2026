@@ -1,0 +1,33 @@
+#unique-paragraph{
+    background-color: lightblue;
+    color: darkblue;
+}
+
+#unique-div{
+    background-color: lightgreen;
+    color: darkgreen;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+    line-height: 1.5;
+    letter-spacing: 1px;    
+}
+
+.super-element{
+    background-color: lightyellow;
+    color: rgb(0, 26, 255);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;    
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+*{
+    border: 1px solid red;
+}
