@@ -1,0 +1,47 @@
+header{
+    background-color: #1D3FA4;
+    color: white;
+    padding: 10px;
+    height: 150px;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+}
+nav ul li{
+    flex: 1;
+    text-align: center;
+    border: 1px solid yellow;
+    padding: 10px;
+    background-color: #176215;
+}
+
+nav ul li a{
+    color: yellow;
+    text-decoration: none;
+}
+
+aside.left{
+    background-color: #D849DA;
+    padding: 10px;
+    width: 200px;
+    height: 600px;
+}
+
+
+aside.right{
+    background-color: #D849DA;
+    padding: 10px;
+    width: 200px;
+    height: 600px;
+}
+
+main{
+    display: flex;
+}
