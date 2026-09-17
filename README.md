@@ -21,5 +21,8 @@ E-mail: chilatsergiu@gmail.com
 - https://www.sublimetext.com/
 - https://atom-editor.cc/
 
+### Online Design & Prototyping platform
+- Figma https://www.figma.com/
+
 # Examples
 - ToR example https://docs.google.com/document/d/1KQuXLDRPBYtviL33YqJwYS9ELBmDXrp8SwawR0Tlf_Y/edit?usp=sharing
