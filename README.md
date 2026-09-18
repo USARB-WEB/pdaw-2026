@@ -26,3 +26,4 @@ E-mail: chilatsergiu@gmail.com
 
 # Examples
 - ToR example https://docs.google.com/document/d/1KQuXLDRPBYtviL33YqJwYS9ELBmDXrp8SwawR0Tlf_Y/edit?usp=sharing
+- Free template Figma design https://www.figma.com/community/file/1252561852327562039/ecommerce-website-web-page-design-ui-kit-interior-landing-page?q_id=f7258083-d783-4b67-ad72-1dd3858f6705
