@@ -62,6 +62,25 @@ header nav ul#user-navigation li a:hover{
     color: gray;
 }
 
+header nav ul#user-navigation li #submenu{
+    display: none;
+}
+
+
+header nav ul#user-navigation #burger{
+    position: relative;
+}
+
+header nav ul#user-navigation li:hover #submenu{
+    display: block;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
 header section#hero{
     display: flex;
     justify-content: end;
