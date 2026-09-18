@@ -1,0 +1,142 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100vh;
+    background-color: aquamarine;
+    outline: 1px solid red;
+    background: url(img/header-bg.png);
+    background-size: cover;
+
+}
+
+header nav{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    position: sticky;
+    top: 0;
+}
+
+header nav img#logo{
+    height: 40px;
+}
+
+header nav ul#main-navigation{
+    display: flex;
+    list-style: none;
+    gap: 4em;
+    align-items: center;
+}
+
+header nav ul#main-navigation li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+header nav ul#main-navigation li a:hover{
+    color: gray;
+}
+
+header nav ul#user-navigation{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+header nav ul#user-navigation li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+header nav ul#user-navigation li a:hover{
+    color: gray;
+}
+
+header section#hero{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 800px;
+}
+
+header section#hero #popup{
+    width: 640px;
+    height: 480px;
+    background-color: #FFF3E3;
+    padding: 2em;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    
+    margin-right: 2em;
+
+    .title{
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    .subtitle{
+        font-size: 52px;
+        font-weight: bold;
+        margin-bottom: 1em;
+        color: #B88E2F;
+    }
+
+    .description{
+        font-size: 16px;
+        margin-bottom: 2em;
+    }
+
+    button{
+        background-color: #B88E2F;
+        color: white;
+        border: none;
+        padding: 2em 4em;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+
+}
+
+section#browse-the-range{
+    height: 300px;
+    background-color: lightblue;
+    outline: 1px solid red;
+}
+
+
+section#our-products{
+    height: 300px;
+    background-color: lightgreen;
+    outline: 1px solid red;
+}
+
+section#inspiration{
+    height: 300px;
+    background-color: lightpink;
+    outline: 1px solid red;
+}
+
+section#gallery{
+    height: 300px;
+    background-color: lightyellow;
+    outline: 1px solid red;
+}
+
+footer{
+    height: 300px;
+    background-color: lightgray;
+    outline: 1px solid red;
+}
